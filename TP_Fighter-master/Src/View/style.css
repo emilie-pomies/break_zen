@@ -1,0 +1,38 @@
+.guild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2
+  {
+    text-align: center;
+    color:orange;
+  }
+
+  input[type="submit"]
+  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    width:100px;
+    color:black;
+    font-size: large;
+    background-color: red;
+   }
+   
+   .photo
+   {
+    height:200px;
+
+   }
+
+   .combat
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }

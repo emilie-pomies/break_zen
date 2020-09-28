@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier TP P5 JS</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <body>
+    <script>
+
+        let value = 0;
+
+        function setup()
+        {
+            createCanvas(displayWidth/2, displayHeight/2);     
+            background(0,255,255);     
+        }
+
+         function draw()
+        {
+            if (mouseIsPressed) {
+
+                if(mouseButton === RIGHT){
+                    background(0,255,255); 
+                }
+
+                fill(random(255),random(255), random(255));
+                circle(mouseX, mouseY, 15);
+            }
+        }
+
+        function windowResized() {
+              resizeCanvas(windowWidth, windowHeight);
+        }
+
+
+    </script>
+  </body>
+</html>

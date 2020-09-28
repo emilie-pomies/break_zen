@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>souris clic TP P5 JS</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <body>
+    <script>
+
+
+        // initialisation des varibles globales
+        //les coodonnées du bouton et sa taille
+        let gCoinX;
+        let gCoinY;
+        let gDemiTaille; // la hauteur = demi largeur
+ 
+        //initialisation du canva
+        function setup()
+        {
+            createCanvas(windowWidth, windowHeight); 
+            gDemiTaille =200; 
+            gCoinX = windowWidth/2;
+            gCoinY = windowHeight/2;   
+            //background(0,255,255);     
+        }
+
+        // fonction d'affiche
+         function draw()
+        {
+            background(0); // on met tout en noir
+            
+            //
+            if (dist(mouseX, mouseY, gCoinX, gCoinY) < gDemiTaille){
+              // le 5 est un offset de securite
+                background(0);
+
+                //trouver un position aleatoire accessible sur l'ecran
+                gCoinX = random(windowWidth-gDemiTaille*2);
+                gCoinY = random(windowHeight-gDemiTaille*2);
+            }
+            else
+            {
+                //afficher le bouton
+                dessineMoiUnBouton(gCoinX, gCoinY, gDemiTaille/2);
+            }  
+        }
+
+        //affiche d'un bouton parametrable (coordonnee + taille)
+        function dessineMoiUnBouton(pX, pY, pTaille)
+        {
+            let lButtonW = pTaille;
+            let lButtonH = pTaille/2; // hauteur == largeur/2
+            let lText = "Don\'t touch";
+            let lTextWidth = textWidth(lText);
+            let lTextSize = 18; // hauteur de texte
+
+            fill(255,255,255); // pinceau blanc pour dessiner le bouton
+            rect(pX, pY, lButtonW, lButtonH);  // affichage du bouton rectangulaire
+            fill(255,0,0);//choix de la couleur rouge
+            textSize(lTextSize); // taille de texte
+            // affiche du texte centrer dans le bouton
+            text(lText, pX+lButtonW/2-lTextWidth/2, pY+lButtonH/2+lTextSize/2); 
+        }
+
+        // MAJ de la fenetre
+        function windowResized() {
+              resizeCanvas(windowWidth, windowHeight, false);
+        }
+
+
+    </script>
+  </body>
+</html>

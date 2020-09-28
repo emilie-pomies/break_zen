@@ -1,0 +1,6 @@
+<map id="displayPlayerSelectionScreen" name="displayPlayerSelectionScreen">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$class_view_lobby.html#ac8e18e1b6a3d856075a45d86602126e1" title=" " alt="" coords="248,5,359,32"/>
+<area shape="rect" id="node3" href="$class_view_lobby.html#a126ec806a27fb7d213085f955c1cfb0c" title=" " alt="" coords="407,5,509,32"/>
+<area shape="rect" id="node4" href="$class_fighter.html#a3d0963e68bb313b163a73f2803c64600" title=" " alt="" coords="557,5,676,32"/>
+</map>

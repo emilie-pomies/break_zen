@@ -1,0 +1,110 @@
+body
+{
+    background-color: rgb(140, 243, 238);
+}
+
+h1,h2
+{
+    background-color: rgb(139, 128, 202);
+    width: 40%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 2em;
+    border: 5px solid blueviolet;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em;
+}
+
+
+form
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+input
+{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.picture
+{
+    column-count: 5;
+    margin-top: 2em;  
+}
+
+.person      
+{
+    background-color: rgb(37, 141, 211);
+    box-shadow: 5px 5px 5px;
+    font-family:  Chancery ,cursive; 
+    width: 90%;
+    text-align: center;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+.shot
+{
+    width: 100px;
+    height: 120px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+
+#connect,#inscription
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+#identifiant
+{
+    margin-bottom: 1em;
+}
+
+.connexion
+{
+    margin-bottom: 3em;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#description
+{
+    width: 80%;
+    height: 10vh;
+}
+
+
+
+

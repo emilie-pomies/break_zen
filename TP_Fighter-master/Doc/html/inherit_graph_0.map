@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_action.html" title=" " alt="" coords="5,132,64,159"/>
+<area shape="rect" id="node2" href="$class_action_attack.html" title=" " alt="" coords="131,5,228,32"/>
+<area shape="rect" id="node3" href="$class_action_death.html" title=" " alt="" coords="133,56,226,83"/>
+<area shape="rect" id="node4" href="$class_action_hit.html" title=" " alt="" coords="142,107,217,133"/>
+<area shape="rect" id="node5" href="$class_action_miss.html" title=" " alt="" coords="136,157,223,184"/>
+<area shape="rect" id="node6" href="$class_action_regeneration.html" title=" " alt="" coords="112,208,247,235"/>
+<area shape="rect" id="node7" href="$class_action_wins.html" title=" " alt="" coords="135,259,224,285"/>
+</map>

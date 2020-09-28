@@ -1,0 +1,9 @@
+<map id="Action" name="Action">
+<area shape="rect" id="node1" title=" " alt="" coords="305,5,363,32"/>
+<area shape="rect" id="node2" href="$class_action_attack.html" title=" " alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node3" href="$class_action_death.html" title=" " alt="" coords="127,80,221,107"/>
+<area shape="rect" id="node4" href="$class_action_hit.html" title=" " alt="" coords="245,80,319,107"/>
+<area shape="rect" id="node5" href="$class_action_miss.html" title=" " alt="" coords="344,80,431,107"/>
+<area shape="rect" id="node6" href="$class_action_regeneration.html" title=" " alt="" coords="455,80,589,107"/>
+<area shape="rect" id="node7" href="$class_action_wins.html" title=" " alt="" coords="613,80,703,107"/>
+</map>
